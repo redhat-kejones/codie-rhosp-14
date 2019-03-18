@@ -1,0 +1,4 @@
+parameter_defaults:
+  CloudName: openstack.hattrick2.lab
+  CloudDomain: hattrick2.lab
+  DnsServers: ["192.168.0.4"]

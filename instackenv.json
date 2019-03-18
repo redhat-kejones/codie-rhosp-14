@@ -1,0 +1,37 @@
+{
+    "arch": "x86_64",
+    "nodes": [
+        {
+            "capabilities": "profile:control",
+            "name": "node5",
+            "pm_addr": "192.168.2.205",
+            "pm_password": "admin",
+            "pm_type": "pxe_ipmitool",
+            "pm_user": "admin"
+        },
+        {
+            "capabilities": "profile:control",
+            "name": "node6",
+            "pm_addr": "192.168.2.206",
+            "pm_password": "admin",
+            "pm_type": "pxe_ipmitool",
+            "pm_user": "admin"
+        },
+        {
+            "capabilities": "profile:compute",
+            "name": "node7",
+            "pm_addr": "192.168.2.207",
+            "pm_password": "admin",
+            "pm_type": "pxe_ipmitool",
+            "pm_user": "admin"
+        },
+        {
+            "capabilities": "profile:control",
+            "name": "node8",
+            "pm_addr": "192.168.2.208",
+            "pm_password": "admin",
+            "pm_type": "pxe_ipmitool",
+            "pm_user": "admin"
+        }
+    ]
+}

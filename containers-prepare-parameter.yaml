@@ -1,0 +1,6 @@
+# Generated with the following on 2019-03-17T12:30:37.651907
+#
+#   openstack tripleo container image prepare -r /home/stack/templates/roles_data.yaml -e /usr/share/openstack-tripleo-heat-templates/environments/services/octavia.yaml -e /usr/share/openstack-tripleo-heat-templates/environments/services/sahara.yaml --output-env-file containers-prepare-parameter.yaml
+#
+
+parameter_defaults: null
