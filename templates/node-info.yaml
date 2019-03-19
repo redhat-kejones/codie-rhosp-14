@@ -1,7 +1,7 @@
 parameter_defaults:
-  ControllerCount: 1
+  ControllerCount: 3
   OvercloudControllerFlavor: control
-  ComputeCount: 2
+  ComputeCount: 0
   OvercloudComputeFlavor: compute
   CephStorageCount: 0
   OvercloudCephStorageFlavor: ceph-storage
@@ -9,7 +9,7 @@ parameter_defaults:
   NtpServer: time.nist.gov
   AdminPassword: Redhat1993
   BarbicanSimpleCryptoGlobalDefault: true
-  CeilometerStoreEvents: true
+  #CeilometerStoreEvents: true
   CephAnsiblePlaybookVerbosity: 1
   ExtraConfig:
     nova::compute::reserved_host_memory: 4096

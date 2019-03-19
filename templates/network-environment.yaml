@@ -78,6 +78,7 @@ parameter_defaults:
   # Neutron VLAN ranges per network, for example 'datacentre:1:499,tenant:500:1000':
   NeutronNetworkVLANRanges: 'datacentre:1:4000,prov:1:4000'
   NeutronGlobalPhysnetMtu: 8946
+  NeutronEnableIsolatedMetadata: true
   # Customize bonding options, e.g. "mode=4 lacp_rate=1 updelay=1000 miimon=100"
   # for Linux bonds w/LACP, or "bond_mode=active-backup" for OVS active/backup.
   #BondInterfaceOvsOptions: "bond_mode=active-backup"
