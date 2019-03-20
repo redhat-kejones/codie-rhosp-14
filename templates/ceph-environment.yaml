@@ -14,7 +14,7 @@ parameter_defaults:
     osd_scenario: lvm
     osd_objectstore: bluestore
     devices:
-      - /dev/sda
+      - /dev/nvme0n1
       - /dev/sdb
       - /dev/sdc
       - /dev/sdd

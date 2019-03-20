@@ -23,4 +23,4 @@ time openstack overcloud deploy --templates \
   -e /home/stack/templates/ceph-environment.yaml \
   -e /usr/share/openstack-tripleo-heat-templates/environments/barbican-backend-simple-crypto.yaml \
   -e /usr/share/openstack-tripleo-heat-templates/environments/enable-swap.yaml \
-  --timeout 90
+  --timeout 120

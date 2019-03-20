@@ -57,7 +57,7 @@ parameter_defaults:
   ExternalNetCidr: '192.168.0.0/23'
   # Customize the IP range to use for static IPs and VIPs
   # Leave room if the external network is also used for floating IPs
-  ExternalAllocationPools: [{'start': '192.168.1.40', 'end': '192.168.1.69'}]
+  ExternalAllocationPools: [{'start': '192.168.1.41', 'end': '192.168.1.69'}]
   # Gateway router for routable networks
   ExternalInterfaceDefaultRoute: '192.168.0.1'
   # Customize the VLAN ID to match the local environment
